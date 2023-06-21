@@ -1,0 +1,386 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100vw;
+  height: 50px;
+  background-color: rgba(22, 22, 23, 0.8);
+}
+
+nav img {
+  width: 18px;
+  height: 18px;
+}
+
+.lupa {
+  margin-right: 30px;
+}
+main {
+  width: 100vw;
+  min-width: 320px;
+  height: 100vh;
+  background-color: white;
+}
+.container-one {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  text-align: center;
+  min-width: 320px;
+  height: 60%;
+  width: 100%;
+  background-color: #fbfbfb;
+}
+.container-two {
+  background-color: black;
+  padding-top: 30px;
+  text-align: center;
+  min-width: 320px;
+  height: 60%;
+  width: 100%;
+}
+
+.container-three {
+  min-width: 320px;
+  height: 60%;
+  width: 100%;
+  margin-top: 10px;
+  background-color: black;
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container-four {
+  min-width: 320px;
+  height: 60%;
+  width: 100%;
+  margin-top: 10px;
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container-five {
+  padding-top: 30px;
+  text-align: center;
+  min-width: 320px;
+  height: 60%;
+  width: 100%;
+  background-color: #fbfbfb;
+  margin-bottom: 10px;
+}
+
+.container-eight {
+  padding-top: 30px;
+  text-align: center;
+  min-width: 320px;
+  height: 60%;
+  width: 100%;
+  background-color: #e8e4eb;
+  margin-bottom: 10px;
+}
+.container-six {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  min-width: 320px;
+  height: 60%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.container-seven {
+  background-color: black;
+  padding-top: 40px;
+  text-align: center;
+  min-width: 320px;
+  height: 60%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.title-black {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #252527;
+  padding-bottom: 10px;
+}
+.title-white {
+  font-size: 3rem;
+  font-weight: bold;
+  color: whitesmoke;
+  padding-bottom: 10px;
+}
+
+.p-title-black {
+  font-size: 1.8rem;
+  line-height: 1.1231053;
+  font-weight: 400;
+  color: #303030;
+  letter-spacing: 0.011em;
+}
+.p-title-white {
+  font-size: 1.8rem;
+  line-height: 1.1231053;
+  font-weight: 400;
+  color: whitesmoke;
+  letter-spacing: 0.011em;
+}
+
+.container-four p {
+  font-size: 1.5rem;
+  line-height: 1.1231053;
+  font-weight: 380;
+  color: whitesmoke;
+  letter-spacing: 0.011em;
+}
+
+.container-info-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.container-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.container-info-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.info {
+  align-items: center;
+  font-size: 1.7rem;
+  line-height: 1.1231053;
+  font-weight: 500;
+  color: #2e8deb;
+  letter-spacing: inherit;
+  text-decoration: none;
+}
+
+.info-eight {
+  align-items: center;
+  font-size: 1.6rem;
+  line-height: 1.1231053;
+  font-weight: 500;
+  color: #2e8deb;
+  letter-spacing: inherit;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.icon-flecha {
+  width: 15px;
+  height: 15px;
+  margin-left: 0px;
+}
+
+.icon-flecha-arriba {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+.img-container-one {
+  width: 310px;
+  max-width: 930px;
+  height: 200px;
+  padding-top: 0px;
+  margin: 0 0;
+}
+
+.img-container-two {
+  width: 200px;
+  max-width: 930px;
+  height: 75%;
+  padding-top: 0px;
+  margin: 0 0;
+}
+.img-container-three {
+  width: 300px;
+  max-width: 930px;
+  height: 250px;
+  margin-top: 95px;
+}
+.img-container-four {
+  margin-top: 50px;
+  width: 310px;
+  max-width: 930px;
+  height: 140px;
+}
+
+.img-container-five {
+  width: 250px;
+  max-width: 930px;
+  height: 300px;
+  padding-top: 0px;
+  margin-bottom: 40px;
+}
+
+.img-container-six {
+  width: 280px;
+  max-width: 930px;
+  height: 150px;
+  padding-top: 0px;
+  margin-bottom: 100px;
+}
+.img-container-seven {
+  width: 310px;
+  max-width: 930px;
+  height: 280px;
+  padding-top: 0px;
+  margin-top: 60px;
+}
+.img-container-eight {
+  width: 300px;
+  max-width: 930px;
+  height: 320px;
+}
+
+.logo-watch {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.logo-wwcd23 {
+  width: 170px;
+  height: 35px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.logo-fitness {
+  width: 150px;
+  height: 45px;
+}
+
+.card-section {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 550px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.container-card-tv {
+  scroll-snap-align: center;
+  margin-left: 15px;
+  min-width: 280px;
+  max-width: 300px;
+  height: 95%;
+  width: 70%;
+  background-color: white;
+  position: relative;
+}
+
+.img-container-tv {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.info-tv {
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(50%);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.container-card-tv:hover .info-tv {
+  opacity: 0.999;
+  transform: translateY(0);
+  transition: all 0.6s;
+}
+
+.container-card-tv h2 {
+  color: whitesmoke;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.p-one {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.p-two {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.container-card-tv button {
+  display: flex;
+  align-items: center;
+  padding: 15px 22px 15px 22px;
+  background-color: white;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+.boton-play {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  border: 0.01px;
+  border-color: #30303094;
+}
+.container-terms {
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  height: 70%;
+  width: 100%;
+  background-color: #f5f5f7;
+  margin-bottom: 10px;
+}
+
+.container-terms p {
+  padding-bottom: 10px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-size: 12px;
+  color: #6e6e73;
+}
+
+.container-terms a {
+  padding-bottom: 10px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-size: 12px;
+  color: #1f1f1f;
+}

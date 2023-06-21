@@ -1,0 +1,47 @@
+.menu {
+  display: none;
+}
+.container-one {
+  height: 90%;
+  width: 100%;
+}
+
+.img-container-one {
+  width: 50%;
+  height: 70%;
+}
+
+.container-two {
+  height: auto;
+  width: 100%;
+  padding-bottom: auto;
+}
+.title-black {
+  font-size: 5rem;
+}
+.title-white {
+  font-size: 5rem;
+}
+
+.p-title-black {
+  font-size: 2.6rem;
+}
+
+.p-title-white {
+  font-size: 2.6rem;
+}
+.img-container-two {
+  display: block;
+  align-items: center;
+  width: 70%;
+  height: 70vh;
+  margin-left: 15%;
+  content: url(./images/hero__cj6i78tzkp8i_large.jpg);
+}
+
+.container-info {
+  padding-bottom: 20px;
+}
+.info {
+  font-size: 1.9rem;
+}
