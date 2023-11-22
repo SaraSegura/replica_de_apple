@@ -36,10 +36,9 @@ main {
 }
 .container-one {
   padding-top: 30px;
-  padding-bottom: 80px;
   text-align: center;
   min-width: 320px;
-  height: 60%;
+  height: auto;
   width: 100%;
   background-color: #fbfbfb;
 }
@@ -48,13 +47,13 @@ main {
   padding-top: 30px;
   text-align: center;
   min-width: 320px;
-  height: 60%;
+  height: auto;
   width: 100%;
 }
 
 .container-three {
   min-width: 320px;
-  height: 60%;
+  height: auto;
   width: 100%;
   margin-top: 10px;
   background-color: black;
@@ -65,7 +64,7 @@ main {
 
 .container-four {
   min-width: 320px;
-  height: 60%;
+  height: auto;
   width: 100%;
   margin-top: 10px;
   background-color: black;
@@ -79,7 +78,7 @@ main {
   padding-top: 30px;
   text-align: center;
   min-width: 320px;
-  height: 60%;
+  height: auto;
   width: 100%;
   background-color: #fbfbfb;
   margin-bottom: 10px;
@@ -89,7 +88,7 @@ main {
   padding-top: 30px;
   text-align: center;
   min-width: 320px;
-  height: 60%;
+  height: auto;
   width: 100%;
   background-color: #e8e4eb;
   margin-bottom: 10px;
@@ -100,7 +99,7 @@ main {
   padding-bottom: 50px;
   text-align: center;
   min-width: 320px;
-  height: 60%;
+  height: auto;
   width: 100%;
   margin-bottom: 10px;
 }
@@ -110,7 +109,7 @@ main {
   padding-top: 40px;
   text-align: center;
   min-width: 320px;
-  height: 60%;
+  height: auto;
   width: 100%;
   margin-bottom: 10px;
 }
@@ -156,7 +155,7 @@ main {
   justify-content: center;
   align-items: center;
   padding-top: 10px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .container-info {
   display: flex;
@@ -223,20 +222,17 @@ main {
 .img-container-three {
   width: 300px;
   max-width: 930px;
-  height: 250px;
   margin-top: 95px;
 }
 .img-container-four {
   margin-top: 50px;
   width: 310px;
   max-width: 930px;
-  height: 140px;
 }
 
 .img-container-five {
   width: 250px;
   max-width: 930px;
-  height: 300px;
   padding-top: 0px;
   margin-bottom: 40px;
 }
@@ -244,7 +240,6 @@ main {
 .img-container-six {
   width: 280px;
   max-width: 930px;
-  height: 150px;
   padding-top: 0px;
   margin-bottom: 100px;
 }

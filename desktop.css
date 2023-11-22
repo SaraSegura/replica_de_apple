@@ -2,7 +2,7 @@
   display: none;
 }
 .container-one {
-  height: 90%;
+  height: auto;
   width: 100%;
 }
 
@@ -14,6 +14,10 @@
 .container-two {
   height: auto;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding-bottom: auto;
 }
 .title-black {
@@ -31,11 +35,10 @@
   font-size: 2.6rem;
 }
 .img-container-two {
-  display: block;
+  display: flex;
+  justify-content: center;
   align-items: center;
   width: 70%;
-  height: 70vh;
-  margin-left: 15%;
   content: url(./images/hero__cj6i78tzkp8i_large.jpg);
 }
 

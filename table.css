@@ -4,12 +4,12 @@
 .card-container {
   display: flex;
   width: 100%;
-  border: 2px solid red;
+
   padding-left: 10px;
   padding-right: 10px;
 }
 .container-one {
-  height: 80%;
+  height: auto;
   width: 100%;
   padding-bottom: 0px;
 }
@@ -21,25 +21,23 @@
 
 .container-three {
   width: 50%;
-  height: 70%;
-  border: 2px solid blue;
+  height: auto;
+
   margin-right: 10px;
 }
 .container-four {
   width: 50%;
-  height: 80%;
-  border: 2px solid blue;
+  height: auto;
 }
 .container-five {
-  height: 70%;
-  border: 2px solid blue;
+  height: auto;
+
   margin-right: 10px;
 }
 .container-six {
   display: flex;
   flex-direction: column;
   height: 70%;
-  border: 2px solid blue;
 }
 
 .img-container-one {
@@ -52,6 +50,10 @@
   max-width: 1059px;
   height: 440px;
   margin-top: 40px;
+}
+
+.img-container-four {
+  width: 200px;
 }
 .img-container-six {
   margin-bottom: 50px;
